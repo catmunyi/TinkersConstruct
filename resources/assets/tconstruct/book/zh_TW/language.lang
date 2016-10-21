@@ -1,0 +1,16 @@
+// Sections
+intro=介紹
+materials=工具材料
+tools=工具
+modifiers=改造
+smeltery=冶煉
+seared_furnace=焦黑熔爐
+tinker_tank=工匠儲液槽
+
+modifier.effect=特殊效果:
+
+material.craft_partbuilder=在零件加工台製作
+material.craft_casting=可以用%s鑄造
+
+wood.flavour=How much wood could a woodchuck chuck if a woodchuck could chuck wood?
+stone.flavour=Rock solid

@@ -1,0 +1,19 @@
+{
+  "modifier": "mending_moss",
+  "text": [
+    {
+      "text": "一些苔蘚已經成長在你的工具的磨損邊緣。 賦予它經驗值會導致它與工具融合，逐漸復原。"
+    }
+  ],
+  "effects": [
+    "儲存掉落經驗值",
+    "最大儲存質受等級影響",
+    "慢慢修理隨時間收費",
+    "在工具列或離開雙手時也會修理",
+    "多個等級"
+  ],
+  "demoTool": [
+    "tconstruct:pickaxe",
+    "tconstruct:broadsword"
+  ]
+}
