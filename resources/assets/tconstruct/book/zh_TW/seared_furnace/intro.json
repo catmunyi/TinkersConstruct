@@ -1,0 +1,11 @@
+{
+  "title":"焦黑熔爐",
+  "image": {
+	"file": "tconstruct:textures/gui/book/seared_furnace.png"
+  },
+  "text": [
+    {
+      "text": "焦黑熔爐是熔爐之最，可以用最快速度烹煮大量食物"
+    }
+  ]
+}

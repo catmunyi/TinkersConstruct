@@ -1,0 +1,17 @@
+{
+  "modifier": "glowing",
+  "text": [
+    {
+      "text": "一些螢光石和魔法終界之眼。 很明顯看到光照等級。"
+    }
+  ],
+  "effects": [
+    "在低光照等級產生光源",
+    "消耗耐久度"
+  ],
+  "demoTool": [
+    "tconstruct:pickaxe",
+    "tconstruct:hammer",
+    "tconstruct:broadsword"
+  ]
+}
