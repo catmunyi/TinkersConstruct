@@ -355,8 +355,11 @@ item.tconstruct.battleaxe.name=戰斧
 # Ranged Weapons & Ammo
 
 item.tconstruct.shortbow.name=短弓
+item.tconstruct.longbow.name=長弓
+item.tconstruct.crossbow.name=十字弓
 
 item.tconstruct.arrow.name=箭矢
+item.tconstruct.bolt.name=弩箭
 
 item.tconstruct.shuriken.name=手裏劍
 
@@ -366,16 +369,16 @@ item.tconstruct.shard.name=碎片
 item.tconstruct.pick_head.name=鎬頭
 item.tconstruct.shovel_head.name=鏟頭
 item.tconstruct.axe_head.name=斧刃
-item.tconstruct.pan_head.name=鍋
+item.tconstruct.pan_head.name=盤
 item.tconstruct.sign_head.name=標牌
 item.tconstruct.binding.name=連接件
 item.tconstruct.tool_rod.name=工具桿
 item.tconstruct.knife_blade.name=刀刃
-item.tconstruct.sword_blade.name=劍身
-item.tconstruct.wide_guard.name=闊劍格
-item.tconstruct.cross_guard.name=劍格
+item.tconstruct.sword_blade.name=劍刃
+item.tconstruct.wide_guard.name=寬護手
+item.tconstruct.cross_guard.name=十字護手
 item.tconstruct.hand_guard.name=護手
-item.tconstruct.full_guard.name=全護手
+item.tconstruct.full_guard.name=大型護手
 
 # Large Tool Parts
 item.tconstruct.hammer_head.name=錘子頭
@@ -385,7 +388,7 @@ item.tconstruct.large_plate.name=大板
 item.tconstruct.tough_binding.name=堅韌連接件
 item.tconstruct.tough_tool_rod.name=堅韌工具桿
 item.tconstruct.scythe_head.name=鐮刀頭
-item.tconstruct.large_sword_blade.name=大劍身
+item.tconstruct.large_sword_blade.name=大劍刃
 
 # Bow & Arrow Parts
 
@@ -395,6 +398,8 @@ item.tconstruct.bow_string.name=弓弦
 item.tconstruct.arrow_head.name=箭頭
 item.tconstruct.arrow_shaft.name=箭桿
 item.tconstruct.fletching.name=箭羽
+
+item.tconstruct.bolt_core.name=弩箭核心
 
 # Material specific tools and toolparts
 # item.tconstruct.<tool>.<material>
@@ -428,9 +433,9 @@ item.tconstruct.throwball.efln.tooltip=爆炸！安全採礦
 
 item.tconstruct.moms_spaghetti.name=媽媽做的意大利麵
 item.tconstruct.moms_spaghetti.desc=美味!
-item.tconstruct.moms_spaghetti.tooltip1=§o我猜這樣就可以了...但還是什麼地方不一樣\n肯定要醬汁，而且是那種紅色醬汁(番茄醬汁)
-item.tconstruct.moms_spaghetti.tooltip2=§o還缺了什麼...也許是肉媽媽做的意大利麵總是用各種肉的\n我想我得找至少三種肉
-item.tconstruct.moms_spaghetti.tooltip3=§o現在這意面就是媽媽的味道
+item.tconstruct.moms_spaghetti.tooltip1=§o我猜這樣就可以了...但還是什麼地方不一樣\n肯定要醬汁，而且是那種紅色醬汁。
+item.tconstruct.moms_spaghetti.tooltip2=§o還缺了什麼...也許是肉媽媽做的意大利麵總是用各種肉的\n我想我得找至少三種肉。
+item.tconstruct.moms_spaghetti.tooltip3=§o現在這意大利麵就是媽媽的味道。
 stat.spaghetti.uses.name=Noms
 stat.spaghetti.nourishment.name=營養水平
 stat.spaghetti.saturation.name=飽和度
@@ -442,10 +447,9 @@ modifier.spaghetti_meat.desc=§o各種肉類！§r\n提高營養水平
 item.tconstruct.spaghetti.hard.name=硬得難以置信的小麥麵棍
 item.tconstruct.spaghetti.hard.tooltip=根本不能吃\n你即便累得手掌滿是汗也沒辦法讓這面條軟下來\n也許應該直接泡水裡一段時間
 item.tconstruct.spaghetti.soggy.name=濕軟麵條
-item.tconstruct.spaghetti.soggy.tooltip=現在這麵濕透了，你那已經累成意大利麵的手也能掰彎這面條了\n掛起來晾干吧
+item.tconstruct.spaghetti.soggy.tooltip=現在這麵濕透了，你那已經累成意大利麵的手也能掰彎這麵條了\n掛起來晾乾吧
 item.tconstruct.spaghetti.cold.name=乾冷麵條
-item.tconstruct.spaghetti.cold.tooltip=很好，現在這麵質量又上了一層，但還是味同嚼蠟\n熱一下也許就可以吃了\n甚至它可以讓你虛弱的膝蓋恢復活力
-
+item.tconstruct.spaghetti.cold.tooltip=很好，現在這麵品質又上了一層，但還是味如嚼蠟\n熱一下也許就可以吃了\n甚至它可以讓你虛弱的膝蓋恢復活力
 
 #################
 #   Entities    #
@@ -501,7 +505,7 @@ potion.carry=背帶
 # material.wood.prefix=Wooden %s - Used for stuff like "Wooden 鎬子" if no specific name is given
 
 material.wood.name=木
-material.wood.prefix=木製%s
+material.wood.prefix=木製　%s
 material.stone.name=石
 material.flint.name=燧石
 material.cactus.name=仙人掌
@@ -515,7 +519,7 @@ material.sponge.name=海綿
 material.firewood.name=烈焰木
 material.slime.name=史萊姆
 material.blueslime.name=藍色史萊姆
-material.blueslime.prefix=史萊姆%s
+material.blueslime.prefix=史萊姆　%s
 material.knightslime.name=史萊姆合金
 material.magmaslime.name=熔岩史萊姆
 material.ardite.name=阿迪特
@@ -539,7 +543,7 @@ material.slimevine_purple.name=material.slimevine_blue.name
 material.blaze.name=烈焰桿
 material.reed.name=蘆葦
 material.ice.name=冰
-material.endrod.name=Endrod
+material.endrod.name=終界桿
 
 material.feather.name=羽毛
 material.leaf.name=樹葉
@@ -552,49 +556,52 @@ material.slimeleaf_purple.name=material.slimeleaf_blue.name
 #############
 stat.head.name=頭
 stat.head.durability.name=耐久度
-stat.head.durability.desc=基本的耐久度\n通常是整體組件的耐久度
+stat.head.durability.desc=基本的耐久度\n通常是整體組件的耐久度。
 stat.head.miningspeed.name=挖掘速度
-stat.head.miningspeed.desc=頭部使用的材料將影響挖掘速度\n也可能受工具部分材料的影響
+stat.head.miningspeed.desc=工具頭部使用的材料將影響挖掘速度\n也可能受工具部分材料的影響。
 stat.head.harvestlevel.name=挖掘等級
-stat.head.harvestlevel.desc=頭部使用的材料將影響挖掘方塊等級的範圍
+stat.head.harvestlevel.desc=工具頭部使用的材料將影響挖掘方塊等級的範圍。
 stat.head.attack.name=攻擊力
-stat.head.attack.desc=基本的攻擊力\n結果取決於工具本身和其它組件
+stat.head.attack.desc=基本的攻擊力\n結果取決於工具本身和其它組件。
 
 stat.handle.name=把手
 stat.handle.modifier.name=改造
-stat.handle.modifier.desc=多適合作為手把的材料.\n工具的總的耐久度將被此加成
+stat.handle.modifier.desc=反映了這種材料有多適合作為手把。\n工具的總的耐久度將被此加乘。
 stat.handle.durability.name=stat.head.durability.name
-stat.handle.durability.desc=拿起來多好的材料\n工具的耐久度將影響
+stat.handle.durability.desc=拿起來多好的材料\n工具的耐久度將影響。
 
-stat.extra.name=其他部分
+stat.extra.name=額外組件
 stat.extra.durability.name=stat.head.durability.name
-stat.extra.durability.desc=作為附件使用時可以提供多少耐久度
+stat.extra.durability.desc=作為額外組件使用時可以提供多少耐久度。
 
 stat.mattock.axelevel.name=斧頭等級
 stat.mattock.shovellevel.name=鏟子等級
 
 stat.bow.name=弓
 stat.bow.drawspeed.name=拉弓速度
-stat.bow.drawspeed.desc=多快你可以拉弓
-stat.bow.range.name=範圍加成
-stat.bow.range.desc=彈藥可以設多遠
+stat.bow.drawspeed.desc=決定你拉弓的速度。
+stat.bow.range.name=範圍加乘
+stat.bow.range.desc=決定箭矢能夠飛多遠。
+stat.bow.damage.name=傷害加乘
+stat.bow.damage.desc=每次打擊施加的傷害值。\n箭的力量。
 
 stat.bowstring.name=弦
 stat.bowstring.modifier.name=改造
-stat.bowstring.modifier.desc=工具的耐久度將被此加成
+stat.bowstring.modifier.desc=工具的耐久度將被此加乘。
 
 stat.shaft.name=箭桿
 stat.shaft.modifier.name=改造
-stat.shaft.modifier.desc=每個箭頭需要一個合適的核心它決定了可以用多久\n工具的總彈藥數量將受此加成
-stat.shaft.ammo.name=彈藥加成
-stat.shaft.ammo.desc=你可以發射多少彈藥\nThis much flat ammo will be added.
+stat.shaft.modifier.desc=每個箭頭需要一個合適的核心它決定了可以用多久\n工具的總彈藥數量將受此加乘。
+stat.shaft.ammo.name=彈藥加乘
+stat.shaft.ammo.desc=反映此材料可合成的箭的數量。\n最後合成總數量將受此加乘。
 
 stat.fletching.name=箭羽
 stat.fletching.accuracy.name=準確性
-stat.fletching.accuracy.desc=使用這一箭羽會有多穩定的飛行路線\n影響射擊的整體精度
+stat.fletching.accuracy.desc=反映箭羽會有多穩定的飛行路線\n影響射擊的整體精度。
 stat.fletching.modifier.name=改造
-stat.fletching.modifier.desc=有多少箭你可以製作.\n工具的總彈藥數量將受此加成
+stat.fletching.modifier.desc=反映有多少箭你可以製作。\n最後合成總數量將受此加乘。
 
+stat.projectile.name=彈藥
 stat.projectile.ammo.name=彈藥
 
 ##############
@@ -603,54 +610,54 @@ stat.projectile.ammo.name=彈藥
 
 # traits are also modifiers, they use the same prefix so they don't have to be localized twice
 modifier.alien.name=外星人
-modifier.alien.desc=§o感覺有些不對勁...§r\n它好像在變化！也許時間會告訴我們答案?
+modifier.alien.desc=§o感覺有些不對勁...§r\n它好像在變化！也許時間會告訴我們答案？
 modifier.aquadynamic.name=低水阻
 modifier.aquadynamic.desc=§o這兒越來越潮濕了！§r\n水下的挖掘速度將不會受到影響，在雨天也會得到增強！
 modifier.aridiculous.name=好熱
 modifier.aridiculous.desc=§o熱量再多點！§r\n環境越熱，工具越順手！
 modifier.autosmelt.name=自動冶煉
-modifier.autosmelt.desc=§o工具形式的熔爐！§r\n自動燒煉采掘下來的方塊
+modifier.autosmelt.desc=§o工具形式的熔爐！§r\n自動燒煉采掘下來的方塊。
 modifier.baconlicious.name=美味培根
-modifier.baconlicious.desc=§o培根！§r\n使用工具時將有幾率得到培根
+modifier.baconlicious.desc=§o培根！§r\n使用工具時將有幾率得到培根。
 modifier.cheap.name=低廉
-modifier.cheap.desc=§o鼓起你的腰包！§r\n修復工具時可以恢復更多的耐久
+modifier.cheap.desc=§o保住你的荷包！§r\n修復工具時可以恢復更多的耐久。
 modifier.cheapskate.name=小氣鬼
-modifier.cheapskate.desc=§o無恥！§r\n石頭真是糟糕你的工具耐久更少了
+modifier.cheapskate.desc=§o厚臉皮！§r\n石頭真是糟糕，你的工具耐久更少了。
 modifier.coldblooded.name=冷血
-modifier.coldblooded.desc=§o殘暴！§r\n對滿血的目標造成額外傷害
+modifier.coldblooded.desc=§o殘暴！§r\n對滿血的目標造成額外傷害。
 modifier.crude.name=粗暴
-modifier.crude.desc=§o懦夫才會用盔甲！§r\n對無護甲的目標造成額外傷害
-modifier.crude.extra=對付無裝甲： +%s
+modifier.crude.desc=§o懦夫才會用盔甲！§r\n對無護甲的目標造成額外傷害。
+modifier.crude.extra=對付無護甲： +%s
 modifier.crumbling.name=搖搖欲墜
-modifier.crumbling.desc=§o轟隆隆§r\n可以更快地破壞那些徒手就能破壞的方塊
+modifier.crumbling.desc=§o轟隆隆§r\n可以更快地破壞那些徒手就能破壞的方塊。
 modifier.dense.name=致密
-modifier.dense.desc=§o更...硬...§r\n工具耐久越低，可以持續使用的時間就越長
+modifier.dense.desc=§o更...硬...§r\n工具耐久越低，可以持續使用的時間就越長。
 modifier.duritos.name=持久
-modifier.duritos.desc=§o用起來不像聽起來那麼好.§r\n你的工具壽命會更長一些...多數時候是這樣.
+modifier.duritos.desc=§o用起來不像聽起來那麼好。§r\n你的工具壽命會更長一些...多數時候是這樣。
 modifier.ecological.name=生態
-modifier.ecological.desc=§o綠色能源！§r\n可再生資源真好,他們會自動修復!
+modifier.ecological.desc=§o綠色能源！§r\n可再生資源真好,他們會自動修復！
 modifier.enderference.name=終界干擾
-modifier.enderference.desc=§o反瞬移！§r\n短時間內可以阻止終界使者的瞬移.
+modifier.enderference.desc=§o反瞬移！§r\n短時間內可以阻止終界使者的瞬移。
 modifier.established.name=老成
-modifier.established.desc=§o免費經驗加成！§r\n玩家可以獲得額外的經驗
+modifier.established.desc=§o免費經驗加乘！§r\n玩家可以獲得額外的經驗。
 modifier.flammable.name=可燃
-modifier.flammable.desc=§o更多的火焰！§r\n格擋時可以消除火焰傷害，還會使攻擊者著火.
+modifier.flammable.desc=§o更多的火焰！§r\n格擋時可以消除火焰傷害，還會使攻擊者著火。
 modifier.fractured.name=碎骨
-modifier.fractured.desc=§o疼！§r\n你的工具有了更高的傷害.
+modifier.fractured.desc=§o疼！§r\n你的工具有了更高的傷害。
 modifier.hellish.name=煉獄
-modifier.hellish.desc=§o來自深淵的最深處！§r\n對非地獄生物會造成額外的傷害
-modifier.hellish.extra=對非地獄生物: +%s
+modifier.hellish.desc=§o來自深淵的最深處！§r\n對非地獄生物會造成額外的傷害。
+modifier.hellish.extra=對非地獄生物：　+%s
 modifier.holy.name=神聖
-modifier.holy.desc=§o聖光淨化它！§r\n對亡靈生物造成額外的傷害.
+modifier.holy.desc=§o聖光淨化它！§r\n對亡靈生物造成額外的傷害。
 modifier.holy.extra=modifier.smite.extra
 modifier.insatiable.name=貪心
-modifier.insatiable.desc=§o吞噬！§r\n在戰鬥中你將能造成越來越高的傷害，但同時也會消耗越來越多的耐久.
+modifier.insatiable.desc=§o吞噬！§r\n在戰鬥中你將能造成越來越高的傷害，但同時也會消耗越來越多的耐久。
 modifier.jagged.name=鋸齒
-modifier.jagged.desc=§o鋸齒般鋒利！§r\n耐久越低，傷害越高.
-modifier.jagged.extra=鋸齒傷害: +%s
+modifier.jagged.desc=§o鋸齒般鋒利！§r\n耐久越低，傷害越高。
+modifier.jagged.extra=鋸齒傷害：　+%s
 modifier.lightweight.name=輕便
-modifier.lightweight.desc=§o疾如風！§r\n提高工具的挖掘或攻擊速度
-modifier.lightweight.extra=速度加成：+%s
+modifier.lightweight.desc=§o疾速如風！§r\n提高工具的挖掘或攻擊速度。
+modifier.lightweight.extra=速度加乘：　+%s
 modifier.magnetic.name=磁力
 modifier.magnetic.desc=§o它們是如何做到的？！§r\n擊中目標後會吸引周圍物品？！
 modifier.momentum.name=動力
@@ -658,116 +665,118 @@ modifier.momentum.desc=§o越來越快！§r\n挖掘方塊時，持續的挖掘�
 modifier.petramor.name=愛石
 modifier.petramor.desc=§o如此多的石頭！§r\n你的工具喜歡石頭，它會吸收石頭來回復耐久！
 modifier.poisonous.name=劇毒
-modifier.poisonous.desc=§o並非完全不含鉛！§r\n給予攻擊目標中毒效果
+modifier.poisonous.desc=§o並非完全不含鉛！§r\n給予攻擊目標中毒效果。
 modifier.prickly.name=尖刺
 modifier.prickly.desc=§o哎呦，疼！§r\n沒人能從這些尖刺中幸免，它們扎人真疼！
 modifier.sharp.name=銳利
-modifier.sharp.desc=§o甚至能切斷聲音！§r\n擊中敵人時會使他們在短時間內流血
+modifier.sharp.desc=§o甚至能切斷聲音！§r\n擊中敵人時會使他們在短時間內流血。
 modifier.shocking.name=震擊
-modifier.shocking.desc=§o滋滋滋！§r\n當你移動時你的工具會被充能,這些能量會在擊中敵人時被釋放
+modifier.shocking.desc=§o滋滋滋！§r\n當你移動時你的工具會被充能,這些能量會在擊中敵人時被釋放。
 modifier.slimey.name=黏滑
-modifier.slimey.desc=§o唔,好黏！§r\n我要洗掉它.
+modifier.slimey.desc=§o噁，好黏！§r\n我要洗掉它。
 modifier.spiky.name=棘刺
-modifier.spiky.desc=§o200%冰冷的刺!§r\n格擋攻擊時會對攻擊者造成傷害
+modifier.spiky.desc=§o200%冰冷的刺!§r\n格擋攻擊時會對攻擊者造成傷害。
 modifier.splintering.name=碎裂
-modifier.splintering.desc=§o給你敵人留下點紀念！§r\n攻擊次數越多，傷害越高
+modifier.splintering.desc=§o給你敵人留下點紀念！§r\n攻擊次數越多，傷害越高。
 modifier.splinters.name=碎裂
 modifier.splinters.desc=§o嗚哇！§r\n小心不要扎到碎片！
-modifier.squeaky.name=柔和
-modifier.squeaky.desc=§o真可愛！§r\n你的工具由於海綿的柔軟而自帶了絲綢之觸,但它卻失去了攻擊力
+modifier.squeaky.name=吱吱
+modifier.squeaky.desc=§o真可愛！§r\n你的工具由於海綿的柔軟而自帶了絲綢之觸,但它卻失去了攻擊力。
 modifier.stiff.name=堅忍
-modifier.stiff.desc=§o不動如山！§r\n格擋時可以減少更多的傷害
+modifier.stiff.desc=§o不動如山！§r\n格擋時可以減少更多的傷害。
 modifier.stonebound.name=石縛
-modifier.stonebound.desc=§o你的工具深愛著石頭！§r\n耐久越低，工具的挖掘速度越快，但傷害也越低.
-modifier.stonebound.extra=石縛速度: +%s
+modifier.stonebound.desc=§o你的工具深愛著石頭！§r\n耐久越低，工具的挖掘速度越快，但傷害也越低。
+modifier.stonebound.extra=石縛速度：　+%s
 modifier.superheat.name=過熱
-modifier.superheat.desc=§o再熱一點！§r\n對著火的敵人造成更多傷害
-modifier.superheat.extra=對著火的目標: +%s
+modifier.superheat.desc=§o再熱一點！§r\n對著火的敵人造成更多傷害。
+modifier.superheat.extra=對著火的目標：　+%s
 modifier.unnatural.name=超自然
-modifier.unnatural.desc=§o憎惡！§r\n工具的挖掘等級比目標方塊越大，挖掘速度越快.
+modifier.unnatural.desc=§o憎惡！§r\n工具的挖掘等級比目標方塊越大，挖掘速度越快。
 modifier.tasty.name=美味
-modifier.tasty.desc=§o嗯...恩...§r\n聞起來真不錯.. 比起挨餓,你更願意吃掉你的工具.
+modifier.tasty.desc=§o嗯...恩...§r\n聞起來真不錯...比起挨餓，你更願意吃掉你的工具。
 modifier.writable.name=銘刻
-modifier.writable.desc=§o知識分子！§r\n更多的文字,更多改造機會這很符合邏輯！
+modifier.writable.desc=§o知識分子！§r\n更多的文字意味著更多改造機會，這很符合邏輯！
 
 modifier.breakable.name=易碎的
-modifier.breakable.desc=§o此面向上！§r\n投射物有50%的機會損毀
+modifier.breakable.desc=§o此面向上！§r\n投射物有50%的機會損毀。
 modifier.endspeed.name=終點之速
-modifier.endspeed.desc=§o量子移動！§r\n投射物立刻前往他們的目的地
+modifier.endspeed.desc=§o量子移動！§r\n投射物立刻前往他們的目的地。
 modifier.freezing.name=霜凍
-modifier.freezing.desc=§o寒冬將至§r\n命中後會讓目標遲緩
+modifier.freezing.desc=§o寒冬將至§r\n命中後會讓目標遲緩。
 modifier.hovering.name=懸浮
-modifier.hovering.desc=§o輕盈如風§r\n投擲物會忽略一部分重力，但速度會下降
+modifier.hovering.desc=§o輕盈如風§r\n投擲物會忽略一部分重力，但速度會下降。
 modifier.splitting.name=分彈
-modifier.splitting.desc=§o一分為二！§r\n箭頭突然加速時也許會一分為二
+modifier.splitting.desc=§o一分為二！§r\n箭頭突然加速時也許會一分為二。
 
 #################
 #   Modifiers   #
 #################
 
 modifier.bane_of_arthopods.name=節肢剋星
-modifier.bane_of_arthopods.desc=§o反蜘蛛!§r\n對蜘蛛造成巨大的傷害
+modifier.bane_of_arthopods.desc=§o反蜘蛛!§r\n對蜘蛛造成巨大的傷害。
 modifier.bane_of_arthopods.extra=對付蜘蛛： +%s
 modifier.beheading.name=斬首
-modifier.beheading.desc=§o砍掉他的頭！§r\n每級增加10%的機率獲得敵人的頭
+modifier.beheading.desc=§o砍掉他的頭！§r\n每級增加10%的機率獲得敵人的頭。
 modifier.blasting.name=爆破
-modifier.blasting.desc=§oKa-Boom!§r\n你可以像破壞一般方塊破壞無法作用的方塊，酖他可能會被銷毀
-modifier.blasting.extra=爆破威力: %s
+modifier.blasting.desc=§o喀嘣！§r\n你可以把沒用的的方塊炸了，但是他們有可能會被炸毀。
+modifier.blasting.extra=爆破威力：　%s
 modifier.diamond.name=鑽石
 modifier.diamond.desc=§o閃亮！§r\n直接增加耐久度！
 modifier.emerald.name=綠寶石
 modifier.emerald.desc=§o華麗！§r\n根據基礎質提高耐久度！
 modifier.fiery.name=火熱
-modifier.fiery.desc=§o現在好熱！§r\n火焰加成燒了你的敵人吧！
+modifier.fiery.desc=§o現在好熱！§r\n火焰加乘燒了你的敵人吧！
 modifier.fiery.extra=火焰傷害： +%s
 modifier.fiery.extra2=燃燒時間： %s秒
+modifier.fins.name=魚鰭
+modifier.fins.desc=§o有些事情不對勁……§r\n在投擲物上附加魚鰭會讓它們在水下也能正常飛行。
 modifier.fortify.name=強化
-modifier.fortify.desc=§o更硬，更好，更快，更強！§r\n開採水平增加至 %s 的水平.
-modifier.glowing.name=發光
-modifier.glowing.desc=§o光澤亮麗§r\n每當太黑時你的工具會犧牲自己的一部分來點亮你的道路
+modifier.fortify.desc=§o更硬，更好，更快，更強！§r\n開採等級增加至 %s 的水平。
+modifier.glowing.name=發亮
+modifier.glowing.desc=§o光澤亮麗§r\n每當太黑時你的工具會犧牲自己的一部分來點亮你的道路。
 modifier.harvestwidth.name=寬度++
-modifier.harvestwidth.desc=§o延伸！§r\n提高工具的作用區域寬度其效果是工具特定的
+modifier.harvestwidth.desc=§o延伸！§r\n提高工具的作用區域寬度其效果是工具特定的。
 modifier.harvestheight.name=高度++
-modifier.harvestheight.desc=§o延伸！§r\n提高工具的作用區域高度其效果是工具特定
+modifier.harvestheight.desc=§o延伸！§r\n提高工具的作用區域高度其效果是工具特定。
 modifier.haste.name=快
 modifier.haste.name2=快一些
 modifier.haste.name3=更快
 modifier.haste.name4=非常快
 modifier.haste.name5=風馳電掣
-modifier.haste.desc=§oWeeeeeee!§r\n使用工具時，紅石脈衝激發你的工具，讓其更快的移動
-modifier.haste.extra=獎勵速度: +%s
+modifier.haste.desc=§oWeeeeeee!§r\n使用工具時，紅石脈衝激發你的工具，讓其更快的移動。
+modifier.haste.extra=速度加乘：　+%s
 modifier.knockback.name=擊退
-modifier.knockback.desc=§oHomerun!§r\n教東西怎麼飛 - 酷的方式
+modifier.knockback.desc=§o全壘打！§r\n讓我們用酷的方式好好教怪物怎麼飛。
 modifier.luck.name=幸運
-modifier.luck.desc=§o閃亮！§r\n獲得所有好東西與更多東西
+modifier.luck.desc=§o閃亮！§r\n獲得所更有好更多的東西
 modifier.mending_moss.name=治愈青苔
-modifier.mending_moss.desc=§o它是活的！§r\n儲存經驗值於工具內將會緩慢消耗經驗來回復耐久度.
-modifier.mending_moss.extra=儲存的經驗值: %d
+modifier.mending_moss.desc=§o它是活的！§r\n儲存經驗值於工具內將會緩慢消耗經驗來回復耐久度。
+modifier.mending_moss.extra=儲存的經驗值：　%d
 modifier.necrotic.name=壞死
-modifier.necrotic.desc=§o我覺得更有生命力了！!§r\n擊中敵人時返回給你取決於受到傷害的生命
+modifier.necrotic.desc=§o我覺得更有生命力了！!§r\n擊中敵人時返回給你取決於受到傷害的生命。
 modifier.necrotic.extra=生命竊取： +%s
-modifier.reinforced.name=加固
+modifier.reinforced.name=強化
 modifier.reinforced.unbreakable=牢不可破
-modifier.reinforced.desc=§o好強大！§r\n每級增加15%機率不耗損耐久度.
-modifier.reinforced.extra=加固: %s
+modifier.reinforced.desc=§o好強大！§r\n每級增加15%機率不耗損耐久度。
+modifier.reinforced.extra=強化：　%s
 modifier.sharpness.name=尖銳
 modifier.sharpness.name2=尖銳一些
 modifier.sharpness.name3=更尖銳
 modifier.sharpness.name4=非常尖銳
 modifier.sharpness.name5=鋒芒逼人
-modifier.sharpness.desc=§oOuch!§r\n好尖銳，看到都會受傷
+modifier.sharpness.desc=§o噢！§r\n好尖銳，看到都會受傷。
 modifier.shulking.name=懸浮
-modifier.shulking.desc=§oUp up and away!§r\n擊中敵人使它們飛起
-modifier.shulking.extra=懸浮時間: %ss
+modifier.shulking.desc=§o飛吧飛吧！§r\n擊中敵人使它們飛起。
+modifier.shulking.extra=懸浮時間：　%s秒
 modifier.silktouch.name=絲綢之觸
-modifier.silktouch.desc=§o絲綢般光滑!§r\n直接挖下方塊
+modifier.silktouch.desc=§o絲綢般光滑!§r\n直接挖下方塊。
 modifier.smite.name=不死剋星
-modifier.smite.desc=§o為了正義！§r\n對不死族造成巨大的傷害
+modifier.smite.desc=§o為了正義！§r\n對不死族造成巨大的傷害。
 modifier.smite.extra=對付不死族： +%s
 modifier.soulbound.name=靈魂附體
-modifier.soulbound.desc=§o快樂的情侶！§r\n妳愛妳的工具愛到不怕死
+modifier.soulbound.desc=§o快樂的情侶！§r\n妳愛妳的工具愛到不怕死。
 modifier.webbed.name=蹼狀網路
-modifier.webbed.desc=§o噁心！§r\n在蜘蛛網中糾纏你的敵人，減緩他們的速度
+modifier.webbed.desc=§o噁心！§r\n在蜘蛛網中糾纏你的敵人，減緩他們的速度。
 
 #################
 #   Tool Info   #
@@ -788,7 +797,13 @@ item.tconstruct.cleaver.desc=切割者是一個沉重的進攻性武器它具有
 item.tconstruct.battleaxe.desc=戰斧是一個沉重的進攻武器，狂戰士來了 它能夠砍倒小樹並讓敵人飛起\n右鍵點擊：狂暴
 item.tconstruct.scythe.desc=鐮刀是一個大範圍的收割工具它在大範圍收成動植物有效\n對農作物和你的敵人帶來死亡
 item.tconstruct.shuriken.desc=手裏劍是一種快速，短程投擲武器它具有高數量，但低傷害\n可以即時拋出
-
+item.tconstruct.shortbow.desc=短弓是種遠程武器。向敵人快速精準地射出箭矢。\n使用匠魂的箭。
+item.tconstruct.longbow.desc=長弓是一個有力的遠程武器。它能提供更高的傷害，但是射程要比短弓短。\n使用匠魂的箭。
+item.tconstruct.arrow.desc=箭矢是弓所用的彈藥。一個箭矢可以多次發射，並且它也可以像其他工具一樣被強化。
+item.tconstruct.crossbow.desc=十字弓是一個裝填速度緩慢但威力強勁的武器。它可以事先通過右鍵來裝填好，之後任意時刻就可以直接發射。\n使用匠魂的弩箭。
+item.tconstruct.bolt.desc=弩箭是十字弓所用的彈藥。一個弩箭可以多次發射，並且它也可以像其他工具一樣被強化。\n有幾率能穿透敵人的裝甲。
+ 
+ 
 ################
 #   Tooltips   #
 ################
@@ -799,17 +814,20 @@ tooltip.tool.holdShift=按下 §e§oShift§r 查看狀態
 tooltip.tool.holdCtrl=按下 §e§bCtrl§r 查看更多
 
 tooltip.part.material_added_by=增加材料 %s
-tooltip.part.missing_material=缺少材料: %s
+tooltip.part.missing_material=缺少材料：　%s
 tooltip.part.missing_stats=材料缺少所需的狀態：\n%s
-tooltip.part.missing_info=部件沒有數據
+tooltip.part.missing_info=組件沒有數據
 
-tooltip.pattern.cost=料耗費： %d
+tooltip.pattern.cost=材料消耗： %d
 
 tooltip.chest.has_items=包含物品
-
+tooltip.patternchest.holds_patterns=包含 %d 個模具
+tooltip.patternchest.holds_casts=包含 %d 個鑄模
+ 
 tooltip.tank.fluid=%s
 tooltip.tank.amount=%d mb
-
+tooltip.tank.holdShift=按住 §e§oShift§r§7 來已桶為單位
+ 
 ##################
 #   UI Strings   #
 ##################
@@ -823,28 +841,30 @@ ui.mininglevel.obsidian=黑曜石
 ui.mininglevel.cobalt=鈷
 
 # Death messages
-death.attack.smeltery=%s 試圖創造融溶玩家
-death.attack.splinter=%s caught a splinter. Must've been massive
+death.attack.smeltery=%s試圖創造融溶玩家
+death.attack.splinter=%s被碎片扎成了蜂窩
+death.attack.bleed=%1$s流血致死，因為%2$s的攻擊
+death.attack.bleed.item=%1$s流血致死，因為被%2$s用%3$s攻擊了
 
 ######################
 # GUI Error messages #
 ######################
 
-gui.error=ERROR
-gui.warning=WARNING
+gui.error=錯誤
+gui.warning=警告
 # GUI Errors from the different Tinker Tables
-gui.error.invalid_pattern=Pattern does not contain a valid tool part!
-gui.error.useless_tool_part=This part can not be used to craft any tool!\nEither the material %s is missing some information or no tool uses a(n) %s in its crafting.
-gui.error.wrong_material_part=One or multiple items have an unsupported material for this tool.
-gui.error.not_enough_durability=Not enough durability to replace parts!\n%d more durability required.
+gui.error.invalid_pattern=模具不包含有效的工具組件！
+gui.error.useless_tool_part=這個組件不能被用來製作任何工具！\n不是%s材料缺少某些資訊就是在它的合成中沒有工具使用%s.
+gui.error.wrong_material_part=這個工具中的一個或者多個物品含有不支援的材料.
+gui.error.not_enough_durability=沒有足夠的耐久來替換組件！\n還需要%d點耐久.
 # GUI Errors from modifiers
-gui.error.not_enough_modifiers=Not enough Modifiers. (%d needed)
-gui.error.single_modifier=%s can only be applied once.
-gui.error.max_level_modifier=Maximum Level for %s already reached.
-gui.error.no_modifier_for_item=No modifier found for %s.
-gui.error.incompatible_modifiers=Modifiers %s and %s cannot be applied together
-gui.error.incompatible_trait=Modifier %s can not be used together with trait %s
-gui.error.incompatible_enchantments=Modifier %s cannot be combined with enchantment %s
+gui.error.not_enough_modifiers=剩餘強化次數不足！\n需要%d個
+gui.error.single_modifier=%s只能強化一次。
+gui.error.max_level_modifier=已達到%s的最高等級。
+gui.error.no_modifier_for_item=未找到%s的強化方式。 
+gui.error.incompatible_modifiers=%s和%s不能一起強化。 
+gui.error.incompatible_trait=%s強化不能和%s特性相結合。 
+gui.error.incompatible_enchantments=%s強化不能與%s附魔相結合。 
 
 ################
 #     GUIs     #
@@ -854,12 +874,12 @@ gui.error.incompatible_enchantments=Modifier %s cannot be combined with enchantm
 gui.general.hover=將滑鼠游標移至項目以獲得更多信息
 
 # Creative Tabs
-itemGroup.TinkerGeneral=Tinkers' General Items
-itemGroup.TinkerTools=Tinkers' Tools
-itemGroup.TinkerToolParts=Tinkers' Toolparts
-itemGroup.TinkerSmeltery=Tinkers' Smeltery
-itemGroup.TinkerWorld=Tinkers' World
-itemGroup.TinkerGadgets=Tinkers' Gadgets
+itemGroup.TinkerGeneral=匠魂|一般物品
+itemGroup.TinkerTools=匠魂|工具
+itemGroup.TinkerToolParts=匠魂|組件
+itemGroup.TinkerSmeltery=匠魂|冶煉
+itemGroup.TinkerWorld=匠魂|世界
+itemGroup.TinkerGadgets=匠魂|雜項
 
 # Crafting Station
 gui.craftingstation.name=工作站
@@ -899,6 +919,7 @@ gui.smeltery.fuel.empty=未發現燃料
 gui.smeltery.fuel.heat=溫度： %d
 gui.smeltery.capacity=容量
 gui.smeltery.capacity_available=可用
+gui.smeltery.capacity_used=使用：
 gui.smeltery.liquid.kilobucket=kb
 gui.smeltery.liquid.bucket=b
 gui.smeltery.liquid.millibucket=mb
