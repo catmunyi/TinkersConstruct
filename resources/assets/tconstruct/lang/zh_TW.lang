@@ -91,7 +91,7 @@ tile.tconstruct.slime_grass.green.name=綠色史萊姆草地
 tile.tconstruct.slime_grass.blue.name=藍色史萊姆草地
 tile.tconstruct.slime_grass.purple.name=紫色史萊姆草地
 tile.tconstruct.slime_grass.blood.name=血色史萊姆草地
-tile.tconstruct.slime_grass.magma.name=岩漿泥濘的草
+tile.tconstruct.slime_grass.magma.name=熔岩史萊姆草地
 tile.tconstruct.slime_grass.tooltip=好軟！讓你跳的更高
 
 tile.tconstruct.slime_leaves.blue.name=史萊姆葉
@@ -103,7 +103,7 @@ tile.tconstruct.slime_grass_tall.fern.name=史萊姆蕨類
 
 tile.tconstruct.slime_sapling.blue.name=藍色史萊姆樹苗
 tile.tconstruct.slime_sapling.purple.name=紫色史萊姆樹苗
-tile.tconstruct.slime_sapling.orange.name=岩漿史萊姆樹苗
+tile.tconstruct.slime_sapling.orange.name=熔岩史萊姆樹苗
 tile.tconstruct.slime_sapling.tooltip=僅生長在史萊姆泥土或史萊姆草地
 
 tile.tconstruct.slime_vine_blue.name=藍色史萊姆藤蔓
@@ -556,13 +556,13 @@ material.slimeleaf_purple.name=material.slimeleaf_blue.name
 #############
 stat.head.name=頭
 stat.head.durability.name=耐久度
-stat.head.durability.desc=基本的耐久度\n通常是整體組件的耐久度。
+stat.head.durability.desc=基本的耐久度\n通常是整體零件的耐久度。
 stat.head.miningspeed.name=挖掘速度
 stat.head.miningspeed.desc=工具頭部使用的材料將影響挖掘速度\n也可能受工具部分材料的影響。
 stat.head.harvestlevel.name=挖掘等級
 stat.head.harvestlevel.desc=工具頭部使用的材料將影響挖掘方塊等級的範圍。
 stat.head.attack.name=攻擊力
-stat.head.attack.desc=基本的攻擊力\n結果取決於工具本身和其它組件。
+stat.head.attack.desc=基本的攻擊力\n結果取決於工具本身和其它零件。
 
 stat.handle.name=把手
 stat.handle.modifier.name=改造
@@ -570,9 +570,9 @@ stat.handle.modifier.desc=反映了這種材料有多適合作為手把。\n工�
 stat.handle.durability.name=stat.head.durability.name
 stat.handle.durability.desc=拿起來多好的材料\n工具的耐久度將影響。
 
-stat.extra.name=額外組件
+stat.extra.name=額外零件
 stat.extra.durability.name=stat.head.durability.name
-stat.extra.durability.desc=作為額外組件使用時可以提供多少耐久度。
+stat.extra.durability.desc=作為額外零件使用時可以提供多少耐久度。
 
 stat.mattock.axelevel.name=斧頭等級
 stat.mattock.shovellevel.name=鏟子等級
@@ -816,7 +816,7 @@ tooltip.tool.holdCtrl=按下 §e§bCtrl§r 查看更多
 tooltip.part.material_added_by=增加材料 %s
 tooltip.part.missing_material=缺少材料：　%s
 tooltip.part.missing_stats=材料缺少所需的狀態：\n%s
-tooltip.part.missing_info=組件沒有數據
+tooltip.part.missing_info=零件沒有數據
 
 tooltip.pattern.cost=材料消耗： %d
 
@@ -853,10 +853,10 @@ death.attack.bleed.item=%1$s流血致死，因為被%2$s用%3$s攻擊了
 gui.error=錯誤
 gui.warning=警告
 # GUI Errors from the different Tinker Tables
-gui.error.invalid_pattern=模具不包含有效的工具組件！
-gui.error.useless_tool_part=這個組件不能被用來製作任何工具！\n不是%s材料缺少某些資訊就是在它的合成中沒有工具使用%s.
+gui.error.invalid_pattern=模具不包含有效的工具零件！
+gui.error.useless_tool_part=這個零件不能被用來製作任何工具！\n不是%s材料缺少某些資訊就是在它的合成中沒有工具使用%s.
 gui.error.wrong_material_part=這個工具中的一個或者多個物品含有不支援的材料.
-gui.error.not_enough_durability=沒有足夠的耐久來替換組件！\n還需要%d點耐久.
+gui.error.not_enough_durability=沒有足夠的耐久來替換零件！\n還需要%d點耐久.
 # GUI Errors from modifiers
 gui.error.not_enough_modifiers=剩餘強化次數不足！\n需要%d個
 gui.error.single_modifier=%s只能強化一次。
@@ -876,7 +876,7 @@ gui.general.hover=將滑鼠游標移至項目以獲得更多信息
 # Creative Tabs
 itemGroup.TinkerGeneral=匠魂|一般物品
 itemGroup.TinkerTools=匠魂|工具
-itemGroup.TinkerToolParts=匠魂|組件
+itemGroup.TinkerToolParts=匠魂|零件
 itemGroup.TinkerSmeltery=匠魂|冶煉
 itemGroup.TinkerWorld=匠魂|世界
 itemGroup.TinkerGadgets=匠魂|雜項
@@ -890,7 +890,7 @@ gui.stenciltable.name=模具加工台
 # PartBuilder
 gui.partbuilder.name=零件組裝台
 gui.partcrafter.name=零件加工台
-gui.partbuilder.info=這裡你可以製作任何工具零配件實現你的幻想\n\n只要將模具放入左方的欄位就可以簡單製作零件。剩下的兩個欄位輸出使用該材料製作的零件。
+gui.partbuilder.info=這裡你可以製作任何工具零件實現你的幻想\n\n只要將模具放入左方的欄位就可以簡單製作零件。剩下的兩個欄位輸出使用該材料製作的零件。
 gui.partbuilder.material_value=材料量： %s %s
 
 # Tool Station/Forge
@@ -898,7 +898,7 @@ gui.toolstation.name=工具組裝站
 gui.toolforge.name=工具鍛造站
 gui.toolstation.repair=維修與改造
 gui.toolstation.traits=特點
-gui.toolstation.components=組件
+gui.toolstation.components=零件
 gui.toolstation.info=修復或更換您的工具的主要方式放置一個工具，並在左邊開始
 gui.toolstation.noTraits=沒有喔 :[
 
