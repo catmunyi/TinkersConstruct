@@ -7,23 +7,23 @@ tile.tconstruct.tooltables.stenciltable.name=模具加工台
 tile.tconstruct.tooltables.partbuilder.name=零件加工台
 tile.tconstruct.tooltables.toolstation.name=工具組裝站
 tile.tconstruct.tooltables.patternchest.name=模具箱
-tile.tconstruct.tooltables.patternchest.tooltip=保存模具或鑄模
+tile.tconstruct.tooltables.patternchest.tooltip=保存模具或鑄模。
 tile.tconstruct.tooltables.partchest.name=零件箱
-tile.tconstruct.tooltables.partchest.tooltip=可以容納大量的工具零件
+tile.tconstruct.tooltables.partchest.tooltip=可以容納大量的工具零件。
 tile.tconstruct.toolforge.name=工具鍛造站
 
 tile.tconstruct.soil.grout.name=水泥
-tile.tconstruct.soil.grout.tooltip=我是渣渣!
+tile.tconstruct.soil.grout.tooltip=我是渣渣。
 tile.tconstruct.soil.slimy_mud_green.name=綠色史萊姆泥
-tile.tconstruct.soil.slimy_mud_green.tooltip=緩慢，但讓你跳更高
+tile.tconstruct.soil.slimy_mud_green.tooltip=緩慢，但讓你跳更高。
 tile.tconstruct.soil.slimy_mud_blue.name=藍色史萊姆泥
 tile.tconstruct.soil.slimy_mud_blue.tooltip=tile.tconstruct.soil.slimy_mud_green.tooltip
 tile.tconstruct.soil.slimy_mud_magma.name=熔岩史萊姆泥
 tile.tconstruct.soil.slimy_mud_magma.tooltip=tile.tconstruct.soil.slimy_mud_green.tooltip
 tile.tconstruct.soil.graveyard.name=墓地泥土
-tile.tconstruct.soil.graveyard.tooltip=醫治不死族
+tile.tconstruct.soil.graveyard.tooltip=醫治不死族。
 tile.tconstruct.soil.consecrated.name=神聖泥土
-tile.tconstruct.soil.consecrated.tooltip=傷害不死族
+tile.tconstruct.soil.consecrated.tooltip=傷害不死族。
 
 tile.tconstruct.deco_ground.mudbrick.name=泥磚
 tile.tconstruct.deco_ground_slab.mudbrick.name=泥半磚
@@ -70,21 +70,21 @@ tile.tconstruct.slime.blue.name=藍色史萊姆方塊
 tile.tconstruct.slime.purple.name=紫色史萊姆方塊
 tile.tconstruct.slime.blood.name=血色史萊姆方塊
 tile.tconstruct.slime.magma.name=熔岩史萊姆方塊
-tile.tconstruct.slime.tooltip=不與活塞運作
+tile.tconstruct.slime.tooltip=不與活塞運作。
 
 tile.tconstruct.slime_congealed.green.name=凝結綠色史萊姆方塊
 tile.tconstruct.slime_congealed.blue.name=凝結藍色史萊姆方塊
 tile.tconstruct.slime_congealed.purple.name=凝結紫色史萊姆方塊
 tile.tconstruct.slime_congealed.blood.name=凝結血色史萊姆方塊
 tile.tconstruct.slime_congealed.magma.name=凝結熔岩史萊姆方塊
-tile.tconstruct.slime_congealed.tooltip=讓你跳的更高
+tile.tconstruct.slime_congealed.tooltip=讓你跳的更高。
 
 tile.tconstruct.slime_dirt.green.name=綠色史萊姆泥土
 tile.tconstruct.slime_dirt.blue.name=藍色史萊姆泥土
 tile.tconstruct.slime_dirt.purple.name=紫色史萊姆泥土
 tile.tconstruct.slime_dirt.blood.name=血色史萊姆泥土
 tile.tconstruct.slime_dirt.magma.name=熔岩史萊姆泥土
-tile.tconstruct.slime_dirt.tooltip=黏黏的，但讓你跳的更高
+tile.tconstruct.slime_dirt.tooltip=黏黏的，但讓你跳的更高。
 
 tile.tconstruct.slime_grass.vanilla.name=史萊姆草地
 tile.tconstruct.slime_grass.green.name=綠色史萊姆草地
@@ -92,7 +92,7 @@ tile.tconstruct.slime_grass.blue.name=藍色史萊姆草地
 tile.tconstruct.slime_grass.purple.name=紫色史萊姆草地
 tile.tconstruct.slime_grass.blood.name=血色史萊姆草地
 tile.tconstruct.slime_grass.magma.name=熔岩史萊姆草地
-tile.tconstruct.slime_grass.tooltip=好軟！讓你跳的更高
+tile.tconstruct.slime_grass.tooltip=好軟！讓你跳的更高。
 
 tile.tconstruct.slime_leaves.blue.name=史萊姆葉
 tile.tconstruct.slime_leaves.purple.name=史萊姆葉
@@ -104,7 +104,7 @@ tile.tconstruct.slime_grass_tall.fern.name=史萊姆蕨類
 tile.tconstruct.slime_sapling.blue.name=藍色史萊姆樹苗
 tile.tconstruct.slime_sapling.purple.name=紫色史萊姆樹苗
 tile.tconstruct.slime_sapling.orange.name=熔岩史萊姆樹苗
-tile.tconstruct.slime_sapling.tooltip=僅生長在史萊姆泥土或史萊姆草地
+tile.tconstruct.slime_sapling.tooltip=僅生長在史萊姆泥土或史萊姆草地。
 
 tile.tconstruct.slime_vine_blue.name=藍色史萊姆藤蔓
 tile.tconstruct.slime_vine_blue_mid.name=藍色史萊姆藤蔓
@@ -125,7 +125,7 @@ tile.tconstruct.seared.brick_small.name=小焦黑石磚
 tile.tconstruct.seared.road.name=焦黑路磚
 tile.tconstruct.seared.tile.name=焦黑磚瓦
 tile.tconstruct.seared.creeper.name=焦黑苦力怕石磚
-tile.tconstruct.seared.tooltip=可作為冶煉爐的一部分用於裝飾
+tile.tconstruct.seared.tooltip=可作為冶煉爐的一部分用於裝飾。
 
 tile.tconstruct.seared_slab.stone.name=焦黑石頭半磚
 tile.tconstruct.seared_slab.cobble.name=焦黑鵝卵石半磚
@@ -154,20 +154,20 @@ tile.tconstruct.seared_stairs_tile.name=焦黑磚瓦樓梯
 tile.tconstruct.seared_stairs_creeper.name=焦黑苦力怕石磚樓梯
 
 tile.tconstruct.smeltery_controller.name=冶煉爐控制器
-tile.tconstruct.smeltery_controller.tooltip=冶煉爐的大腦
+tile.tconstruct.smeltery_controller.tooltip=冶煉爐的大腦。
 tile.tconstruct.smeltery_io.drain.name=冶煉爐排液口
-tile.tconstruct.smeltery_io.drain.tooltip=讓液體進出冶煉爐
+tile.tconstruct.smeltery_io.drain.tooltip=讓液體進出冶煉爐。
 tile.tconstruct.casting.table.name=澆鑄台
 tile.tconstruct.casting.basin.name=澆鑄盆
-tile.tconstruct.casting.tooltip=使用熔融金屬鑄製物品
+tile.tconstruct.casting.tooltip=使用熔融金屬鑄製物品。
 tile.tconstruct.faucet.name=液體流嘴
-tile.tconstruct.faucet.tooltip=從冶煉爐和其他容器排出液體
+tile.tconstruct.faucet.tooltip=從冶煉爐和其他容器排出液體。
 tile.tconstruct.seared_tank.tank.name=焦黑儲罐
 tile.tconstruct.seared_tank.gauge.name=焦黑量表
 tile.tconstruct.seared_tank.window.name=焦黑玻璃窗
-tile.tconstruct.seared_tank.tooltip=冶煉爐的心臟\n破碎時保留液體
+tile.tconstruct.seared_tank.tooltip=冶煉爐的心臟\n破碎時保留液體。
 tile.tconstruct.seared_glass.glass.name=焦黑玻璃
-tile.tconstruct.seared_glass.glass.tooltip=可作為冶煉爐的一部分用於裝飾\n不能保存液體
+tile.tconstruct.seared_glass.glass.tooltip=可作為冶煉爐的一部分用於裝飾\n不能保存液體。
 
 tile.tconstruct.seared_furnace_controller.name=焦黑熔爐控制器
 tile.tconstruct.tinker_tank_controller.name=工匠儲液槽控制器
@@ -176,21 +176,21 @@ tile.tconstruct.stone_torch.name=石製火炬
 tile.tconstruct.stone_ladder.name=石製梯子
 tile.tconstruct.wood_rail.name=木製軌道
 tile.tconstruct.wood_rail_trapdoor.name=地板門木製軌道
-tile.tconstruct.wood_rail_trapdoor.tooltip=使漏斗礦車可以\n輸入物品至下方
+tile.tconstruct.wood_rail_trapdoor.tooltip=使漏斗礦車可以\n輸入物品至下方。
 tile.tconstruct.punji.name=尖竹釘陷阱
-tile.tconstruct.punji.tooltip=好尖！也可以當作圍牆
+tile.tconstruct.punji.tooltip=好尖！也可以當作圍牆。
 tile.tconstruct.glow.name=發光
 tile.tconstruct.rack.item.name=物品架
-tile.tconstruct.rack.item.tooltip=用於裝飾目的
+tile.tconstruct.rack.item.tooltip=用於裝飾目的。
 tile.tconstruct.rack.drying.name=晾乾架
-tile.tconstruct.rack.drying.tooltip=用於乾燥物品
+tile.tconstruct.rack.drying.tooltip=用於乾燥物品。
 
 tile.tconstruct.slime_channel.green.name=綠色史萊姆通道
 tile.tconstruct.slime_channel.blue.name=藍色史萊姆通道
 tile.tconstruct.slime_channel.purple.name=紫色史萊姆通道
 tile.tconstruct.slime_channel.magma.name=熔岩史萊姆通道
 tile.tconstruct.slime_channel.blood.name=血通道
-tile.tconstruct.slime_channel.tooltip=像水般流動，感覺像凝膠
+tile.tconstruct.slime_channel.tooltip=像水般流動，感覺像凝膠。
 
 tile.tconstruct.dried_clay.clay.name=乾燥黏土
 tile.tconstruct.dried_clay.brick.name=乾燥磚頭
@@ -211,7 +211,7 @@ tile.tconstruct.brownstone.brick_small.name=小褐色石磚
 tile.tconstruct.brownstone.road.name=褐色石磚路
 tile.tconstruct.brownstone.tile.name=褐色瓦片
 tile.tconstruct.brownstone.creeper.name=褐色苦力怕石磚
-tile.tconstruct.brownstone.tooltip=讓你走得更快
+tile.tconstruct.brownstone.tooltip=讓你走得更快。
 
 tile.tconstruct.brownstone_slab.smooth.name=平滑褐色石頭半磚
 tile.tconstruct.brownstone_slab.rough.name=粗糙褐色石頭半磚
@@ -245,7 +245,7 @@ tile.tconstruct.brownstone_stairs_creeper.name=褐色苦力怕石磚樓梯
 
 # General Items
 item.tconstruct.book.name=材料與你
-item.tconstruct.book.tooltip=每個工匠都需要一本的書\nby Skyla
+item.tconstruct.book.tooltip=每個工匠都需要一本的書\nby Skyla 。
 
 item.tconstruct.edible.bacon.name=培根
 item.tconstruct.edible.slimeball_blue.name=藍色史萊姆球
@@ -270,31 +270,31 @@ item.tconstruct.edible.slimedrop_magma.name=熔岩史萊姆液滴
 
 item.tconstruct.materials.seared_brick.name=焦黑石磚
 item.tconstruct.materials.mud_brick.name=泥巴磚
-item.tconstruct.materials.mud_brick.tooltip=不管蓋什麼都需要它
+item.tconstruct.materials.mud_brick.tooltip=不管蓋什麼都需要它。
 item.tconstruct.materials.dried_brick.name=乾燥黏土磚
 item.tconstruct.materials.slimecrystal_green.name=綠色史萊姆結晶
-item.tconstruct.materials.slimecrystal_green.tooltip=用來做史萊姆工具
+item.tconstruct.materials.slimecrystal_green.tooltip=用來做史萊姆工具。
 item.tconstruct.materials.slimecrystal_blue.name=藍色史萊姆結晶
 item.tconstruct.materials.slimecrystal_blue.tooltip=item.tconstruct.materials.slimecrystal_green.tooltip
 item.tconstruct.materials.slimecrystal_magma.name=熔岩史萊姆結晶
 item.tconstruct.materials.slimecrystal_magma.tooltip=item.tconstruct.materials.slimecrystal_green.tooltip
 item.tconstruct.materials.expander_w.name=延伸器（水平）
-item.tconstruct.materials.expander_w.tooltip=Don't skip leg day!
+item.tconstruct.materials.expander_w.tooltip=水平方向各延伸一格。
 item.tconstruct.materials.expander_h.name=延伸器（垂直）
-item.tconstruct.materials.expander_h.tooltip=Do you even lift?
+item.tconstruct.materials.expander_h.tooltip=垂直方向各延伸一格。
 item.tconstruct.materials.reinforcement.name=強化
-item.tconstruct.materials.reinforcement.tooltip=強化改造
+item.tconstruct.materials.reinforcement.tooltip=強化改造。
 item.tconstruct.materials.silky_cloth.name=絲綢布料
 item.tconstruct.materials.silky_jewel.name=絲綢寶石
-item.tconstruct.materials.silky_jewel.tooltip=絲綢之觸改造
+item.tconstruct.materials.silky_jewel.tooltip=絲綢之觸改造。
 item.tconstruct.materials.necrotic_bone.name=不死剋星
-item.tconstruct.materials.necrotic_bone.tooltip=不死剋星改造
+item.tconstruct.materials.necrotic_bone.tooltip=不死剋星改造。
 item.tconstruct.materials.moss.name=一球青苔
-item.tconstruct.materials.moss.tooltip=右鍵點擊書架\n蘭轉換成治愈青苔\n§o消耗 10 等級
+item.tconstruct.materials.moss.tooltip=右鍵點擊書架\n轉換成治愈青苔\n§o消耗 10 等級。
 item.tconstruct.materials.mending_moss.name=治愈青苔
-item.tconstruct.materials.mending_moss.tooltip=治愈青苔改造
+item.tconstruct.materials.mending_moss.tooltip=治愈青苔改造。
 item.tconstruct.materials.creative_modifier.name=創造模式改造
-item.tconstruct.materials.creative_modifier.tooltip=增加更多改造
+item.tconstruct.materials.creative_modifier.tooltip=增加更多改造。
 
 item.tconstruct.ingots.cobalt.name=鈷錠
 item.tconstruct.ingots.ardite.name=阿迪特錠
@@ -302,7 +302,7 @@ item.tconstruct.ingots.manyullyn.name=瑪玉靈錠
 item.tconstruct.ingots.knightslime.name=史萊姆合金錠
 item.tconstruct.ingots.knightslime.tooltip=黏糊糊的金屬還是石頭呢？迷人阿！
 item.tconstruct.ingots.pigiron.name=鋼錠
-item.tconstruct.ingots.pigiron.tooltip=嚄嚄!
+item.tconstruct.ingots.pigiron.tooltip=嚄嚄！
 item.tconstruct.ingots.alubrass.name=鋁黃銅錠
 
 item.tconstruct.nuggets.cobalt.name=鈷粒
@@ -324,7 +324,7 @@ item.tconstruct.cast_custom.plate.name=板鑄模
 item.tconstruct.cast_custom.gear.name=齒輪鑄模
 
 item.tconstruct.sharpening_kit.name=銳化工具組
-item.tconstruct.sharpening_kit.tooltip=與燧石結合\n升級工具到與材料相同的開採等級
+item.tconstruct.sharpening_kit.tooltip=與燧石結合\n升級工具到與材料相同的開採等級。
 
 item.forge.bucketFilled.blood=血桶
 
@@ -407,11 +407,11 @@ item.tconstruct.bolt_core.name=弩箭核心
 
 # Gadgets
 item.tconstruct.slime_boots.name=史萊姆靴
-item.tconstruct.slime_boots.tooltip=讓你著陸時反彈
-item.tconstruct.slimesling.name=Slimesling
-item.tconstruct.slimesling.tooltip=充電，低瞄準，丟擲！\n如果你珍惜你的生命請使用史萊姆靴！
+item.tconstruct.slime_boots.tooltip=讓你著陸時獲得保護。
+item.tconstruct.slimesling.name=史莱姆弹弓
+item.tconstruct.slimesling.tooltip=蓄力，瞄準，發射！\n珍惜生命請使用史萊姆靴！
 item.tconstruct.piggybackpack.name=背帶
-item.tconstruct.piggybackpack.tooltip=右鍵點擊怪物撿起來
+item.tconstruct.piggybackpack.tooltip=右鍵點擊怪物背起來。
 item.tconstruct.stone_stick.name=石棒
 
 item.tconstruct.fancy_frame.jewel.name=花俏物品框架
@@ -423,9 +423,9 @@ item.tconstruct.fancy_frame.gold.name=金製物品框架
 item.tconstruct.fancy_frame.clear.name=清澈物品框架
 
 item.tconstruct.throwball.glow.name=螢光球
-item.tconstruct.throwball.glow.tooltip=不適合食用
+item.tconstruct.throwball.glow.tooltip=不適合食用。
 item.tconstruct.throwball.efln.name=EFLN
-item.tconstruct.throwball.efln.tooltip=爆炸！安全採礦
+item.tconstruct.throwball.efln.tooltip=爆炸！可以安全採礦。
 
 ###################
 # Mom's Spaghetti #
@@ -445,11 +445,11 @@ modifier.spaghetti_meat.name=附帶肉類
 modifier.spaghetti_meat.desc=§o各種肉類！§r\n提高營養水平
 
 item.tconstruct.spaghetti.hard.name=硬得難以置信的小麥麵棍
-item.tconstruct.spaghetti.hard.tooltip=根本不能吃\n你即便累得手掌滿是汗也沒辦法讓這面條軟下來\n也許應該直接泡水裡一段時間
+item.tconstruct.spaghetti.hard.tooltip=根本不能吃\n你即便累得手掌滿是汗也沒辦法讓這面條軟下來\n也許應該直接泡水裡一段時間。
 item.tconstruct.spaghetti.soggy.name=濕軟麵條
-item.tconstruct.spaghetti.soggy.tooltip=現在這麵濕透了，你那已經累成意大利麵的手也能掰彎這麵條了\n掛起來晾乾吧
+item.tconstruct.spaghetti.soggy.tooltip=現在這麵濕透了，你那已經累成意大利麵的手也能掰彎這麵條了\n掛起來晾乾吧。
 item.tconstruct.spaghetti.cold.name=乾冷麵條
-item.tconstruct.spaghetti.cold.tooltip=很好，現在這麵品質又上了一層，但還是味如嚼蠟\n熱一下也許就可以吃了\n甚至它可以讓你虛弱的膝蓋恢復活力
+item.tconstruct.spaghetti.cold.tooltip=很好，現在這麵品質又上了一層，但還是味如嚼蠟\n熱一下也許就可以吃了\n甚至它可以讓你虛弱的膝蓋恢復活力。
 
 #################
 #   Entities    #
